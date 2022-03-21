@@ -1,0 +1,64 @@
+img.pokedex {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.pokecontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12% 0 12%;
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.imgcontainer {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12% 13.6%;
+    padding: 1% 4.1%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.in {
+    margin-top: 35%;
+    margin-left: 15.25%;
+    border-radius: 5%;
+    width: 140px;
+    height: 55px;
+    background-color: rgb(85, 171, 98);
+    /* rgb(85, 171, 98) */
+    position: absolute;
+}
+
+.center {
+    /* Center element */
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+}
+
+.pokeinput,
+.pokeinput::placeholder,
+.pokeinput:focus {
+    background-color: rgb(85, 171, 98);
+    border: none;
+    color: black;
+}
+
+.pokeinput:hover {
+    border: solid;
+    border-color: rgb(0, 0, 0);
+}
